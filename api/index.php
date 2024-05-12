@@ -1,3 +1,4 @@
+<?php
 $request_uri = $_SERVER['REQUEST_URI'];
 $request_path = str_replace('/api/', '', $request_uri);
 $path_segments = explode('/', $request_path);
